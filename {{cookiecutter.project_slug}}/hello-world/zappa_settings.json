@@ -1,0 +1,6 @@
+{
+  "prod": {
+    "app_function": "app.app",
+    "s3_bucket": "{{ cookiecutter.aws_bucket_name }}"
+  }
+}

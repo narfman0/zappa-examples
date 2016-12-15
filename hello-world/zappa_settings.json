@@ -1,5 +1,0 @@
-{
-  "prod": {
-    "s3_bucket": "{{ aws_storage_bucket_name }}"
-  }
-}

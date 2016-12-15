@@ -24,7 +24,7 @@ should be referred to for usage.
 Examples
 --------
 
-`hello-world` is a starter flask app, responding "Hello world"
+```hello-world``` is a starter flask app, responding "Hello world"
 
 License
 -------
