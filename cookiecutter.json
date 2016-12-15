@@ -1,0 +1,6 @@
+{
+    "author_name": "Your Name",
+    "aws_access_key_id": "key_id",
+    "aws_secret_access_key": "secret_key",
+    "aws_storage_bucket_name": "{{ cookiecutter.aws_access_key_id }}-bucket"
+}
