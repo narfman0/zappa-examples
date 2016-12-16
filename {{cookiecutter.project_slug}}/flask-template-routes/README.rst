@@ -1,7 +1,7 @@
-hello-world
-===========
+flask-template-routes
+=====================
 
-Simple hello world app for flask to work with zappa!
+Flask app demonstrating jinja template usage and multiple routes
 
 Usage
 -----

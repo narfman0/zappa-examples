@@ -24,7 +24,10 @@ should be referred to for usage.
 Examples
 --------
 
-```hello-world``` is a starter flask app, responding "Hello world"
+``flask-hello-world`` Simple hello world app for flask to work with zappa!
+
+``flask-template-routes`` Flask app demonstrating jinja template usage and
+multiple routes
 
 License
 -------

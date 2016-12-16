@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def lambda_handler(event=None, context=None):
+def index(event=None, context=None):
     return 'Hello World!'
 
 
