@@ -31,6 +31,8 @@ multiple routes
 ``flask-image-service`` Flask app using Pillow to modify an image and upload
 to s3. Uses ``lambda-packages`` for pillow related binaries.
 
+``django_hello_world`` Simple hello world django app zappaified!
+
 License
 -------
 

@@ -1,0 +1,6 @@
+{
+  "prod": {
+    "django_settings": "zappa_django_hello_world.settings.base",
+    "s3_bucket": "{{ cookiecutter.aws_bucket_name }}"
+  }
+}

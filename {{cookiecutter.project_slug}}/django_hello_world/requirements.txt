@@ -1,0 +1,5 @@
+django
+django-storages
+boto
+boto3
+zappa
