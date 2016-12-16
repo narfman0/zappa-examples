@@ -1,7 +1,5 @@
 {
     "project_slug": "zappa_examples",
-    "author_name": "Your Name",
-    "aws_access_key_id": "key_id",
-    "aws_secret_access_key": "secret_key",
-    "aws_bucket_name": "{{ cookiecutter.project_slug }}-bucket-{{ cookiecutter.author_name|replace(' ', '_') }}"
+    "author_name": "narfman0",
+    "aws_bucket_name": "{{ cookiecutter.project_slug|replace('_', '-') }}-{{ cookiecutter.author_name|replace(' ', '-') }}"
 }

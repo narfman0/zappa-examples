@@ -1,0 +1,43 @@
+{% raw %}
+{% extends "base.html" %}
+
+{% block title %}
+  Upload
+{% endblock %}
+
+{% block content %}
+<h1>Upload new File</h1>
+<p>
+   <input id='filePicker' type=file name=file>
+   <form action="" method="post">
+      <textarea id='b64file' name='b64file' style="display: none"></textarea>
+      <input class="btn btn-primary" type=submit value=Upload>
+  </form>
+</p>
+
+<script>
+// via http://jsfiddle.net/eliseosoto/JHQnk/
+var handleFileSelect = function(evt) {
+    var files = evt.target.files;
+    var file = files[0];
+
+    if (files && file) {
+        var reader = new FileReader();
+
+        reader.onload = function(readerEvt) {
+            var binaryString = readerEvt.target.result;
+            document.getElementById("b64file").value = btoa(binaryString);
+        };
+
+        reader.readAsBinaryString(file);
+    }
+};
+
+if (window.File && window.FileReader && window.FileList && window.Blob) {
+    document.getElementById('filePicker').addEventListener('change', handleFileSelect, false);
+} else {
+    alert('The File APIs are not fully supported in this browser.');
+}
+</script>
+{% endblock %}
+{% endraw %}
