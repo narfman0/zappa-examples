@@ -1,0 +1,6 @@
+{
+    "prod": {
+        "django_settings": "djangocms_api.settings.prod",
+        "s3_bucket": "{{ cookiecutter.aws_bucket_name }}"
+    }
+}
