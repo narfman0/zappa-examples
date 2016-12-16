@@ -1,13 +1,13 @@
-<html>
+{% raw %}<html>
   <head>
     <title>{% block title %}{% endblock %} - flask-template-routes</title>
   </head>
   <body>
     <div id="content">{% block content %}{% endblock %}</div>
     <div id="footer">
-      {% block footer %}
+      {% block footer %}{% endraw %}
       &copy; Copyright 2016 by <a href="#">{{ cookiecutter.author_name }}</a>.
-      {% endblock %}
+      {% raw %}{% endblock %}{% endraw %}
     </div>
   </body>
 </html>
