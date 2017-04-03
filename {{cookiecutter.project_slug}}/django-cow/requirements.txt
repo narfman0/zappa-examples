@@ -1,0 +1,6 @@
+boto>=2.46.1
+cow>=0.3.2
+django>=1.10.6
+django-storages>=1.5.2
+psycopg2>=2.7.1
+zappa>=0.39.1
