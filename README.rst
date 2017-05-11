@@ -34,11 +34,15 @@ to s3. Uses ``lambda-packages`` for pillow related binaries.
 
 ``django_hello_world`` Simple hello world django app zappaified!
 
+``django-cow`` Cow cms simple example
+
 ``djangocms-api`` Django-cms starter project
+
+``scheduled-weather`` Scheduled function printing the weather
 
 License
 -------
 
-Copyright (c) 2016 Jon Robison
+Copyright (c) 2016-2017 Jon Robison
 
 See included LICENSE for licensing information

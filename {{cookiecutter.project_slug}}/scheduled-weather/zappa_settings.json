@@ -1,0 +1,9 @@
+{
+  "prod": {
+    "s3_bucket": "{{ cookiecutter.aws_bucket_name }}",
+    "events": [{
+       "function": "app.weather",
+       "expression": "rate(1 minute)"
+    }]
+  }
+}
