@@ -1,6 +1,9 @@
 zappa-examples
 ==============
 
+.. image:: https://travis-ci.org/narfman0/zappa-examples.png?branch=master
+    :target: https://travis-ci.org/narfman0/zappa-examples
+
 Collection of some examples using zappa, to be used for documentation
 as helpful working samples / tutorials.
 

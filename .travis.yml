@@ -1,0 +1,8 @@
+---
+install: "pip install --user cookiecutter"
+script:
+  - |
+    echo "yes
+    zappa_examples
+    username
+    bucket" | cookiecutter gh:narfman0/zappa-examples && (echo "pass" && exit 0) || (echo "fail" && exit 1)
