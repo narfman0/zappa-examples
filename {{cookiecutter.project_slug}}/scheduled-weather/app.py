@@ -6,4 +6,4 @@ URL = 'http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b1
 
 def weather():
     temp = requests.get(URL).json()['main']['temp']
-    return 'Temp: {}'.format(temp)
+    print('Temp: {}'.format(temp))
