@@ -111,13 +111,13 @@ USE_L10N = True
 
 USE_TZ = True
 
-AWS_STORAGE_BUCKET_NAME = "{{ cookiecutter.s3bucket }}"
+AWS_STORAGE_BUCKET_NAME = "{{ cookiecutter.aws_bucket_name }}"
 AWS_S3_CUSTOM_DOMAIN = 's3.amazonaws.com/%s' % AWS_STORAGE_BUCKET_NAME
 
 STATICFILES_LOCATION = 'static'
 STATIC_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, STATICFILES_LOCATION)
-STATICFILES_STORAGE = '{{ cookiecutter.project_package }}.storage.StaticStorage'
+STATICFILES_STORAGE = 'django_cow.storage.StaticStorage'
 
 MEDIAFILES_LOCATION = 'media'
 MEDIA_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, MEDIAFILES_LOCATION)
-DEFAULT_FILE_STORAGE = '{{ cookiecutter.project_package }}.storage.MediaStorage'
+DEFAULT_FILE_STORAGE = 'django_cow.storage.MediaStorage'

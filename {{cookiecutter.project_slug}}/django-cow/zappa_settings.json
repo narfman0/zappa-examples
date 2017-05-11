@@ -1,6 +1,6 @@
 {
   "prod": {
     "django_settings": "django_cow.settings",
-    "s3_bucket": "{{ cookiecutter.s3bucket }}"
+    "s3_bucket": "{{ cookiecutter.aws_bucket_name }}"
   }
 }
