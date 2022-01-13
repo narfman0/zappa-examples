@@ -2,7 +2,7 @@ boto
 boto3
 botocore
 cmsplugin-filer==1.1.3
-django-cms==3.4.1
+django-cms==3.4.7
 djangocms-text-ckeditor
 djangocms_column
 djangocms_link
