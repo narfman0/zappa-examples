@@ -13,7 +13,7 @@ djangocms_video
 django_select2
 django-filer
 django-storages
-Django==2.2.26
+Django==2.2.27
 djangorestframework
 -e git://github.com/narfman0/djangocms-rest-api.git@1dac41a52e2a0468ddf975e95a682973b49ae4a5#egg=djangocms_rest_api
 easy-thumbnails
